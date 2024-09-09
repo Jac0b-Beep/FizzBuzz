@@ -38,7 +38,7 @@ class FizzBuzz
         }
     }
 
-    private static int doFizzBuzz(int round) {
+    public static int doFizzBuzz(int round) {
         // Find out which numbers divide i.
         boolean divisibleBy3 = round % 3 == 0;
         boolean divisibleBy5 = round % 5 == 0;
